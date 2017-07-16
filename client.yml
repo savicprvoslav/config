@@ -1,7 +1,15 @@
 api:
    test:
       response: This is the value
+
 eureka: 
    client: 
       serviceUrl:
           defaultZone: http://eureka:eureka@eureka:8761/eureka/
+
+spring:
+   cloud: 
+      config: 
+         uri: http://config:8888
+         username=root
+         password=s3cr3t
