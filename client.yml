@@ -1,3 +1,7 @@
 api:
    test:
       response: This is the value
+eureka: 
+   client: 
+      serviceUrl:
+          defaultZone=http://eureka:eureka@eureka:8761/eureka/
