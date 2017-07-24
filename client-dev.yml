@@ -13,3 +13,12 @@ spring:
     port: 5672
     username: user
     password: secret
+
+
+security:
+      user:
+        name: admin
+        password: secret
+management:
+  security:
+     roles:SUPERUSER
