@@ -20,5 +20,5 @@ security:
         name: admin
         password: secret
 management:
-  security:
-     roles:SUPERUSER
+    security:
+       roles:SUPERUSER
