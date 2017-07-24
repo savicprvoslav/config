@@ -1,6 +1,6 @@
 api:
    test:
-      response: This is the value
+      response: This is the value Update
 
 eureka: 
    client: 
