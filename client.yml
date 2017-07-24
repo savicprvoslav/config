@@ -21,4 +21,4 @@ security:
         password: secret
 management:
     security:
-       roles:SUPERUSER
+         roles: SUPERUSER
